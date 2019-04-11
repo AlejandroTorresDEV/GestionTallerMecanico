@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#E2E2E2">
+
+
+    <ImageView
+        android:id="@+id/imagenVehiculo"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_menu_slideshow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtNombreVehiculo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="Taller el brevas"
+        android:layout_above="@+id/txtMatriculaCoche"
+        android:layout_alignLeft="@+id/txtMatriculaCoche"
+        android:layout_alignStart="@+id/txtMatriculaCoche" />
+
+    <TextView
+        android:id="@+id/txtMatriculaCoche"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="78945612F"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imagenVehiculo"
+        android:layout_toEndOf="@+id/imagenVehiculo"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp" />
+
+</RelativeLayout>

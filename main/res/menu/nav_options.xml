@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+        android:id="@+id/menu_citas"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Mis citas"
+        />
+
+        <item
+            android:id="@+id/menu_coches"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Mis coches"
+            />
+
+        <item
+            android:id="@+id/menu_talleres"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Talleres"
+            />
+
+        <item
+            android:id="@+id/menu_usuarios"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Mapa"
+            />
+
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/menu_settings"
+                    android:icon="@android:drawable/ic_dialog_dialer"
+                    android:title="Settings"
+                    />
+                <item
+                    android:id="@+id/menu_SignOut"
+                    android:icon="@android:drawable/ic_dialog_dialer"
+                    android:title="SignOut"
+                    />
+            </menu>
+        </item>
+    </group>
+</menu>
